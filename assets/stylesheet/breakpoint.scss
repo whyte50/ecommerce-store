@@ -1,0 +1,29 @@
+@mixin M-landscape {
+    @media (min-width: 480px) and (orientation : landscape) {
+        @content;
+    }
+}
+
+@mixin T-portrait {
+    @media (min-width: 768px) { 
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin limit {
+    @media (min-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin small {
+    @media (max-width: 380px) {
+        @content;
+    }
+}
