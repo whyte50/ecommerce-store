@@ -3,7 +3,7 @@ import { Appwrite, Query } from "appwrite";
 const api = new Appwrite();
 
 api
-    .setEndpoint('http://api.whytewebart.com/v1') // Your API Endpoint
+    .setEndpoint('https://appwrite.whytewebart.com/v1') // Your API Endpoint
     .setProject('625ffecff09322eac07f') // Your project ID
 ;
 
