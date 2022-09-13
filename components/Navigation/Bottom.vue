@@ -46,7 +46,7 @@ const scroll = (id) => {
 						@click="scroll('topnav-search')"
 						>search.</a>
 						<NuxtLink to="/#featured-products" style="color: #202124; font-weight: 600;">featured.</NuxtLink>
-						<NuxtLink to="https://capstonbee.com" target="_blank">CAPSTONBEE.</NuxtLink>
+						<NuxtLink to="https://profile.whytwebart.com" target="_blank">PROFILE</NuxtLink>
 					</div>
 				</div>
 				<div class="section2">

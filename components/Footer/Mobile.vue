@@ -1,6 +1,4 @@
 <script setup>
-
-const cap = () => window.open("http://capstonbee.com")
 const openFeedBack = () => {
 	window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
 	SITE_ACTIONS().toggleFeedback()
@@ -11,7 +9,7 @@ const openFeedBack = () => {
 		<div class="header" id="header">
 			<div class="wrapper">
 				<h1 style="display:flex; align-items: center">
-				capston bee
+				whytewebart
 					<!-- <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: .6em;" width="20.828" height="11.414" viewBox="0 0 20.828 11.414">
 						<path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down" d="M9,13.5l9,9,9-9" transform="translate(-7.586 -12.086)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 					</svg> -->
@@ -32,8 +30,8 @@ const openFeedBack = () => {
 				<div class="h2"><h2>Shopping Online</h2></div>
 				<div class="item">
 					<NuxtLink to="/">My Cart</NuxtLink>
-					<NuxtLink to="/">Collections</NuxtLink>
-					<NuxtLink to="/">FAQs</NuxtLink>
+					<NuxtLink to="/collections">Collections</NuxtLink>
+					<NuxtLink to="/faq">FAQs</NuxtLink>
 					<NuxtLink to="/">Checkout</NuxtLink>
 					<NuxtLink to="/">My Account</NuxtLink>
 				</div>
@@ -46,7 +44,7 @@ const openFeedBack = () => {
 				<div class="item">
 					<NuxtLink to="/">Find US</NuxtLink>
 					<NuxtLink to="/">Shipping Policy</NuxtLink>
-					<NuxtLink to="/">Collaborate with us</NuxtLink>
+					<NuxtLink to="https://profile.whytewebart.com">Collaborate with us</NuxtLink>
 					<span @click="openFeedBack()">Site Feedback</span>
 				</div>
 			</div>
@@ -56,16 +54,16 @@ const openFeedBack = () => {
 			<div class="links-container">
 				<div class="h2"><h2>Contact</h2></div>
 				<div class="item">
-					<a @click="cap">capstonbee.com</a>
-					<a href="mailto:capstonbee@yahoo.com">capstonbee@yahoo.com</a>
-					<a href="tel:+23409019381921">Hotline: +234 901 235 7895</a>
+					<NuxtLink to="https://profile.whytewebart.com">profile.whytewebart.com</NuxtLink>
+					<NuxtLink to="mailto:wills.yte50@gmail.com">wills.yte50@gmail.com</NuxtLink>
+					<NuxtLink to="tel:+23409019381921">Hotline: +234 901 235 7895</NuxtLink>
 				</div>
 			</div>
 
 		</div>
 
 		<div class="rights">
-			<h3><span style="color: #EEAF2C">Bottles 'N' Cans</span> By <span style="color: #EEAF2C; text-decoration: underline;">Capstonbee</span> - © 2021. ALL RIGHTS RESERVED.</h3>
+			<h3>Ecommerce store - © 2021. ALL RIGHTS RESERVED.</h3>
 		</div>
 	</section>
 </template>

@@ -4,7 +4,7 @@ const route = useRoute()
 
 useHead({
     titleTemplate: (titleChunk) => {
-      return titleChunk ? `${titleChunk} | Bottles 'N' Cans | Capstonbee` : `Bottles 'N' Cans | Capstonbee`;
+      return titleChunk ? `${titleChunk} | Ecommerce store | whytwebart` : `Ecommerce store | whytwebart`;
     }
 })
 </script>

@@ -1,10 +1,6 @@
-<script setup>
-const cap = () => window.open("http://capstonbee.com")
-</script>
-
 <template>
   	<div class="name-wrapper">
-		<h3>capstonbee.</h3>
+		<h3>whytewebart.</h3>
 	</div>
 	<div class="main-root">
 		<div class="space"></div>
@@ -13,7 +9,7 @@ const cap = () => window.open("http://capstonbee.com")
 				<div class="social-media-wrapper-root">
 					<div class="social-media-wrapper">
             <NuxtLink to="/">
-              <img src="../../assets/img/logo.png">
+              <img src="../../assets/img/logo.jpg">
             </NuxtLink>
 						<svg id="Group_284" data-name="Group 284" xmlns="http://www.w3.org/2000/svg" width="114.391" height="17.5" viewBox="0 0 114.391 17.5">
 							<a href="#">
@@ -50,21 +46,21 @@ const cap = () => window.open("http://capstonbee.com")
 					<div class="container">
 						<h5>Information</h5>
 						<NuxtLink to="javascript:void(0)">Find Us</NuxtLink>
-						<NuxtLink to="https://capstonbee.com">Collaborate with Us</NuxtLink>
+						<NuxtLink to="https://profile.whytewebart.com">Collaborate with Us</NuxtLink>
 						<NuxtLink @click="SITE_ACTIONS().toggleFeedback()">Site Feedback</NuxtLink>
 						<NuxtLink to="/faq">FAQs</NuxtLink>
 					</div>
 					<div class="container">
 						<h5>Contact</h5>
-						<NuxtLink to="https://capstonbee.com" target="_blank">capstonbee.com</NuxtLink>
-						<NuxtLink to="mailto:capstonbee@yahoo.com">capstonbee@yahoo.com</NuxtLink>
+						<NuxtLink to="https://profile.whytewebart.com" target="_blank">profile.whytewebart.com</NuxtLink>
+						<NuxtLink to="mailto:wills.yte50@gmail.com">wills.yte50@gmail.com</NuxtLink>
 						<NuxtLink to="tel:+23409019381921">Hotline: +234 901 235 7895</NuxtLink>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="rights">
-			<h5>Bottles 'N' Cans BY Capstonbee - © 2021. ALL RIGHTS RESERVED.</h5>
+			<h5>Ecommerce store - © 2021. ALL RIGHTS RESERVED.</h5>
 		</div>
 	</div>
 </template>
@@ -171,6 +167,13 @@ h5 {font-weight: 700}
       flex-direction: column;
       align-items: center;
       a:focus {border: 0;}
+	  img {
+		width: 150px;
+		height: 150px;
+		object-fit: cover;
+		margin-bottom: 1em;
+		border-radius: 1em;
+	  }
     }
   }
   .image {
